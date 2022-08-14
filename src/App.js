@@ -26,6 +26,7 @@ class App extends React.Component {
     this.handleEnter = this.handleEnter.bind(this);
 
     setInterval(this.checkStatus, 2000);
+    this.checkPlayers();
     setInterval(this.checkPlayers, 30000);
   }
   
